@@ -44,7 +44,8 @@ if (isset($_POST["i"]) && !empty($_POST["i"])) {
 		background: -webkit-radial-gradient(center, ellipse cover, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
 		background: radial-gradient(ellipse at center, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-		color:white;
+		color: white;
+		overflow-y: hidden;
 	}
 	p {
 		position: relative;

@@ -1,5 +1,6 @@
 <?php
 include 'config.php';
+
 function is_image($path) {
 	$a = getimagesize($path);
 	$image_type = $a[2];
@@ -35,37 +36,34 @@ if (isset($_POST["i"]) && !empty($_POST["i"])) {
 <html>
 <head>
 <style type="text/css">
-
-	body{
-		    height: 100vh;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
-background: #b5bdc8; /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover, #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	body {
+		height: 100vh;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+		background: #b5bdc8; /* Old browsers */
+		background: -moz-radial-gradient(center, ellipse cover, #b5bdc8 0%, #828c95 36%, #28343b 100%); /* FF3.6-15 */
+		background: -webkit-radial-gradient(center, ellipse cover, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: radial-gradient(ellipse at center, #b5bdc8 0%,#828c95 36%,#28343b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 		color:white;
-
 	}
-	p{
-				position: relative;
-				text-align: center;
-top: 50%;
-transform: translateY(-50%);
+	p {
+		position: relative;
+		text-align: center;
+		top: 50%;
+		transform: translateY(-50%);
 
- -webkit-text-stroke: 1px black;
-   color: white;
-  font-weight: bolder;
-   text-shadow:
+		-webkit-text-stroke: 1px black;
+		color: white;
+		font-weight: bolder;
+		text-shadow:
 
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 
-       font-family: sans-serif;
-       font-size: 20pt;
+		font-family: sans-serif;
+		font-size: 20pt;
 	}
 </style>
 <title></title>

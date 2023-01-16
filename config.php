@@ -1,6 +1,6 @@
 <?php
 $_imup["title"]="IMageUPload - IMUP.eu";
-$_imup["baseurl"]="https://imup.eu";
+$_imup["baseurl"]="http://localhost:9090";
 $_imup["loader"]="Blocks.gif";
 $_imup["fronttext"]="Press Ctrl+V to upload (page must be focused)";
 $_imup["uploaded"]="Image was uploaded!";
